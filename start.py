@@ -1,5 +1,6 @@
 print "Hola world!"
-loop = True
-if loop:
-	print "Loop ran!"
+count = 0
+if count < 5:
+	print "Loop ran! Count is %d" % count
+	count += 2
 
